@@ -1,2 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~normalize.css';
+@import "../node_modules/normalize.css/normalize.css";
+
+*{
+    background-color: rgb(0, 0, 0);
+    color: #ffff;
+    /*no tocar esto o se pudre todo*/
+    max-width: 100%;
+}
